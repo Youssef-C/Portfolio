@@ -1,0 +1,42 @@
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    min-height: 25px;
+    max-height: 50px;
+    min-width: 100%;
+    background-color: #22223b;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 2px 10px #1f3366;
+    position: fixed;
+  }
+  
+  a {
+    color: #f2e9e4;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #f2e9e4; 
+  }
+
+  .NavBarLinks {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+  .NavBarItems{
+    padding-bottom: 8px;
+    padding: 6px;
+    margin: 0px;
+  }
+
+  .NavBarItems:hover {
+    color: #fff8f4;
+    border-bottom: 2px solid #fff8f4;   
+  }
+  
