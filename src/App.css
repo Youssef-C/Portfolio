@@ -27,8 +27,8 @@ html {
   position: relative;
   text-align: center;
   background-color: brown;
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   margin: 15px;
 }
 
@@ -39,8 +39,8 @@ html {
 
 .project-image {
   display: block;
-  height: 150px;
-  width: 150px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .project-title {
