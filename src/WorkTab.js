@@ -1,9 +1,6 @@
 //IMPORTS
 import styled from 'styled-components';
 import './App.css';
-import Quire from './Images/Quire.png';
-import ProgressBlog from './Images/Progress-Blog.png';
-import ShoeCard from './Images/3D-Card.png';
 
     //STYLED COMPONENTS
 //The container for the ProjectsList tab
@@ -17,30 +14,42 @@ function WorkTab () {
             <div className="project-flex-container">
                 <div className="project-container">
                     <div className="overlay">
-                        <a href="https://github.com/maxjander/fe20tp1_keyboard" className="project-title">QUIRE</a>
+                        <p className="project-description">Project Description Goes here!</p>
+                        <a href="https://github.com/maxjander/fe20tp1_keyboard" target="_blank" rel="noreferrer" className="project-link">See more here</a>
                     </div>
-                    <a href="https://github.com/maxjander/fe20tp1_keyboard"> <img className="project-image" src={Quire} alt=""/></a>
+                    <div className="project-title">
+                        <h2>Quire</h2>
+                    </div>
                 </div>
                 
                 <div className="project-container">
                     <div className="overlay">
-                        <a href="https://github.com/maxjander/fe20tp1_keyboard" className="project-title">Progress Blog!</a>
+                        <p className="project-description">Project Description Goes here!</p>
+                        <a href="https://github.com/maxjander/fe20tp1_keyboard" target="_blank" rel="noreferrer" className="project-link">See more here</a>
                     </div>
-                    <a href="https://github.com/maxjander/fe20tp1_keyboard"> <img className="project-image" src={ProgressBlog} alt=""/></a>
+                    <div className="project-title">
+                        <h2>Progress Blog</h2>
+                    </div>
                 </div>
 
                 <div className="project-container">
                     <div className="overlay">
-                        <a href="https://github.com/maxjander/fe20tp1_keyboard" className="project-title">3D Card!</a>
+                        <p className="project-description">Project Description Goes here!</p>
+                        <a href="https://github.com/maxjander/fe20tp1_keyboard" target="_blank" rel="noreferrer" className="project-link">See more here</a>
                     </div>
-                    <a href="https://github.com/maxjander/fe20tp1_keyboard"> <img className="project-image" src={ShoeCard} alt=""/></a>
+                    <div className="project-title">
+                        <h2>3D Card</h2>
+                    </div>
                 </div>
 
                 <div className="project-container">
                     <div className="overlay">
-                        <a href="https://github.com/maxjander/fe20tp1_keyboard" className="project-title">This Portfolio</a>
+                        <p className="project-description">Project Description Goes here!</p>
+                        <a href="https://github.com/maxjander/fe20tp1_keyboard" target="_blank" rel="noreferrer" className="project-link">See more here</a>
                     </div>
-                    <a href="https://github.com/maxjander/fe20tp1_keyboard"> <img className="project-image" src={Quire} alt=""/></a>
+                    <div className="project-title">
+                        <h2>My Portfolio</h2>
+                    </div>
                 </div>
             </div>
         </div>

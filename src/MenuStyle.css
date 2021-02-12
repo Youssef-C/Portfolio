@@ -7,7 +7,7 @@
     min-width: 100%;
     background-color: #22223b;
     position: relative;
-    z-index: 1;
+    z-index: 6;
     box-shadow: 0px 2px 10px #1f3366;
     position: fixed;
   }

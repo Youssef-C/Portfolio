@@ -6,6 +6,7 @@ import About from './About';
 import Education from './Education';
 import styled from 'styled-components';
 import Contact from './Contact';
+import WeatherApp from './WeatherApp';
 
 const Container = styled.div` 
   display: flex;
@@ -18,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <TopMenu />
-      
+      <WeatherApp />
       <Container>
         <Title />
         <WorkTab /> 
