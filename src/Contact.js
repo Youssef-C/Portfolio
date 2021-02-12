@@ -1,5 +1,5 @@
 //IMPORTS
-import styled from 'styled-components';
+//import styled from 'styled-components';
 import './App.css';
 
 function Contact () {
