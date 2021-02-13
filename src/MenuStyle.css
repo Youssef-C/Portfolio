@@ -12,12 +12,7 @@
     position: fixed;
   }
   
-  a {
-    color: #f2e9e4;
-    text-decoration: none;
-  }
-
-  a:visited {
+  .NavBarItems:visited {
     color: #f2e9e4; 
   }
 
@@ -33,6 +28,8 @@
     padding-bottom: 8px;
     padding: 6px;
     margin: 0px;
+    color: #f2e9e4;
+    text-decoration: none;
   }
 
   .NavBarItems:hover {

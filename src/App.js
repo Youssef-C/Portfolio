@@ -16,7 +16,6 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   background-color: #04047a;
-  color: #f2e9e4;
 `
 
 function App() {

@@ -13,10 +13,9 @@ html {
 /*----TITLE COMPONENT CSS----*/
 
 #name-tag {
+  color: #f2e9e4;
   font-size: 42px;
-  border-bottom: 2px solid black;
   display: inline;
-  border-right: 2px solid black;
   border-radius: 16px;
   padding: 8px;
   box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
@@ -24,15 +23,15 @@ html {
 
 #subtitle {
   font-size: 20px;
+  color: #f2e9e4;
 }
 
 /*---PROJECTS COMPONENT CSS---*/
 
 #work-tab-title {
+  color: #f2e9e4;
   font-size: 32px;
-  border-bottom: 2px solid black;
   display: inline;
-  border-right: 2px solid black;
   border-radius: 16px;
   padding: 8px;
   box-shadow: 2px 5px rgba(0, 0, 0, 0.2); 
@@ -70,9 +69,8 @@ html {
 .project-title {
   white-space: nowrap; 
   color: #04047a;
-  font-size: 25px;
+  font-size: 22px;
   position: absolute;
-  overflow: hidden;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -102,22 +100,40 @@ html {
 }
 
 .project-description {
-  padding: 0 0 0 12px;
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
+}
+
+#quire {
+  padding: 22px 3px 3px 3px;
+}
+
+#progress-blog {
+  padding: 10px 3px 3px 3px;
+}
+
+#threeD-card {
+  padding: 10px 3px 3px 3px;
 }
 
 .project-link {
   font-size: 16px;
+  background-color:#f2e9e4;
+  color:#17178a;
+  border-radius: 8px;
+  font-weight: 700;
+  padding: 4px;
+  text-decoration: none;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
 }
+
 
 /*----EDUCATION COMPONENT CSS----*/
 
 #education-title {
+  color: #f2e9e4;
   font-size: 32px;
-  border-bottom: 2px solid black;
   display: inline;
-  border-right: 2px solid black;
   border-radius: 16px;
   padding: 8px;
   box-shadow: 2px 5px rgba(0, 0, 0, 0.2); 
@@ -126,10 +142,9 @@ html {
 /*----ABOUT COMPONENT CSS----*/
 
 #about-title {
+  color: #f2e9e4;
   font-size: 32px;
-  border-bottom: 2px solid black;
   display: inline;
-  border-right: 2px solid black;
   border-radius: 16px;
   padding: 8px;
   box-shadow: 2px 5px rgba(0, 0, 0, 0.2); 
@@ -138,23 +153,32 @@ html {
 /*---CONTACTS PAGE---*/
 
 #contact-title {
+  color: #f2e9e4;
   font-size: 32px;
-  border-bottom: 2px solid black;
   display: inline;
-  border-right: 2px solid black;
   border-radius: 16px;
   padding: 8px;
   box-shadow: 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
-.email {
-  font-size: 16px;
+.email-text {
+  margin: 20px;
 }
 
-.icons {
+#email-me {
+  color: #f2e9e4;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
   font-size: 55px;
 }
 
-/*.social-icons {
-  
-}*/
+.icons {
+  margin: 12px;
+}
+
+
