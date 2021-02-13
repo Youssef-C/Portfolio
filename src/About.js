@@ -12,7 +12,7 @@ import './App.css';
 function About () {
     return (
         <div className="flex-items" id="about-me">
-        <h1>About the developer!</h1>
+        <h1 id="about-title">About the developer!</h1>
         </div>
     );
 }

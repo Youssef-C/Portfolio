@@ -5,7 +5,7 @@ import './App.css';
 function Contact () {
     return (
         <div className="flex-items" id="contact">
-            <h1>Get in touch!</h1>
+            <h1 id="contact-title">Get in touch!</h1>
             <p className="email"><a href="mailto:youssef.chardi@hotmail.com">Send me an email!</a></p>
             
             <div className="icons">

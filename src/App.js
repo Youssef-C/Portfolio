@@ -8,6 +8,10 @@ import styled from 'styled-components';
 import Contact from './Contact';
 import WeatherApp from './WeatherApp';
 
+const FontContainer = styled.div`
+font-family: 'Montserrat', sans-serif;  
+`
+
 const Container = styled.div` 
   display: flex;
   flex-direction: column;
@@ -18,6 +22,7 @@ const Container = styled.div`
 function App() {
   return (
     <div className="App">
+      <FontContainer>
       <TopMenu />
       <WeatherApp />
       <Container>
@@ -27,6 +32,7 @@ function App() {
         <About />
         <Contact />
       </Container>
+      </FontContainer>
     </div>
   );
 }

@@ -19,6 +19,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: rgba(250, 84, 84, 0.9);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.2);
     border-radius: 16px;
     transition: 0.4s ease-out;
     min-width: 150px;

@@ -12,7 +12,7 @@ import './App.css';
 function Education () {
     return (
         <div className="flex-items" id="education">
-        <h1>Education!</h1>
+        <h1 id="education-title">Education!</h1>
         </div>
     );
 }

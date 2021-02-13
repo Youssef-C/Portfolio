@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import './App.css';
 
 //STYLED COMPONENTS
     //Styling Title
@@ -11,8 +12,8 @@ function Title () {
     return ( 
         <Container>
         <div id="home">
-            <h1>Youssef Chardi</h1>
-            <h4>A newbie Webdev</h4>
+            <h1 id="name-tag">Youssef Chardi</h1>
+            <h4 id="subtitle">A newbie Webdev</h4>
         </div>
         </Container>
     );

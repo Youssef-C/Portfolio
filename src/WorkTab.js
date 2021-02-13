@@ -10,7 +10,7 @@ import './App.css';
 function WorkTab () {
     return ( 
         <div className="flex-items" id="work-tab">
-        <h1>Previous Projects</h1> 
+        <h1 id="work-tab-title">Previous Projects</h1> 
             <div className="project-flex-container">
                 <div className="project-container">
                     <div className="overlay">
