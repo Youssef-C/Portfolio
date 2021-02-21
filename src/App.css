@@ -8,7 +8,6 @@ html {
 
 .flex-items {
   margin: 40px;
-  min-height: 400px;
 }
 /*----TITLE COMPONENT CSS----*/
 
@@ -102,6 +101,7 @@ html {
 .project-description {
   text-align: center;
   font-size: 18px;
+  color: #f2e9e4;
 }
 
 #quire {
@@ -113,6 +113,10 @@ html {
 }
 
 #threeD-card {
+  padding: 10px 3px 3px 3px;
+}
+
+#portfolio {
   padding: 10px 3px 3px 3px;
 }
 
@@ -129,9 +133,16 @@ html {
 
 
 /*----EDUCATION COMPONENT CSS----*/
+#education {
+  background-color:#f2e9e4;
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 2px 10px rgba(0, 0, 0, 0.2);
+}
 
 #education-title {
   color: #f2e9e4;
+  background-color: #04047a;
   font-size: 32px;
   display: inline;
   border-radius: 16px;
@@ -139,7 +150,49 @@ html {
   box-shadow: 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
+.schools {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.school {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 33%;
+}
+
+.school-title {
+  color: #f2e9e4;
+  padding: 12px 8px 6px 8px;
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 16px; 
+  font-size: 28px;
+  background-color: #04047a;
+}
+
+.school-description {
+  display: inline;
+  align-self: center;
+  font-size: 20px;
+  max-width: 90%;
+  margin-top: 0px;
+}
+
 /*----ABOUT COMPONENT CSS----*/
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: center;
+  width: 30%;
+  background-color: #f2e9e4;
+  box-shadow: 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
 
 #about-title {
   color: #f2e9e4;
@@ -147,28 +200,51 @@ html {
   display: inline;
   border-radius: 16px;
   padding: 8px;
-  box-shadow: 2px 5px rgba(0, 0, 0, 0.2); 
+  margin: 10px;
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #04047a; 
+}
+
+.description-me {
+  display: inline;
+  align-self: center;
+  font-size: 20px;
+  max-width: 90%;
+  margin-top: 10px;
 }
 
 /*---CONTACTS PAGE---*/
 
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  background-color: #f2e9e4;
+  border-radius: 16px;
+} 
+
 #contact-title {
   color: #f2e9e4;
+  background-color: #04047a;
   font-size: 32px;
   display: inline;
   border-radius: 16px;
   padding: 8px;
+  margin: 4px;
   box-shadow: 2px 5px rgba(0, 0, 0, 0.2); 
+  align-self: center;
 }
 
 .email-text {
-  margin: 20px;
+  margin: 5px;
 }
 
 #email-me {
-  color: #f2e9e4;
+  color: #04047a;
   text-decoration: none;
   font-size: 20px;
+  font-weight: bolder;
 }
 
 .icon-container {
@@ -180,5 +256,4 @@ html {
 .icons {
   margin: 12px;
 }
-
 

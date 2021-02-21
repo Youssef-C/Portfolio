@@ -44,7 +44,7 @@ function WorkTab () {
 
                 <div className="project-container">
                     <div className="overlay">
-                        <p className="project-description">Project Description Goes here!</p>
+                        <p className="project-description" id="portfolio">The portfolio <br/> you're looking at right now! Made it myself, built with react, using styled components for some of the styling but mainly standard css.</p>
                         <a href="https://github.com/Youssef-C/Portfolio" target="_blank" rel="noreferrer" className="project-link">See more here</a>
                     </div>
                     <div className="project-title">
